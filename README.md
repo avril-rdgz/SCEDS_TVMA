@@ -5,7 +5,8 @@
 
 **Team meeting (11 Jan at 16.00)**
 - Marjolein and Naima will review overleaf by 21.00 11 JAN
-- Submission Monday morning by whom???
+- if anything to fix and improve, me and Avril will stand by till 21.30 
+- Submission Monday morning by Marjolein
 - Naima not available every Saturday
 - Avril and Sofia limited availability during weekdays, very exhaustively evening…
   
