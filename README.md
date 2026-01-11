@@ -1,7 +1,37 @@
 # CSEDS_TVMA
 
+### Action Plan
+
+| Date       | Description |
+|------------|-------------|
+| Thu, 15 Jan | Completed candidate models and methodology |
+| Sun, 18 Jan | Completed code replication and draft introduction and literature review |
+| Thu, 22 Jan | Full analysis and interpretation of results |
+| Sun, 25 Jan | Draft of written report and internal review |
+| Tue, 27 Jan | Final submission of written report and presentation slides |
+| Wed, 28 Jan | Rehearsal and refinement of presentation narrative |
+| Thu, 29 Jan | Final presentation and group member evaluation |
+
+
+### Task Distribution
+
+| Task | Sofia | Marjolein | Naima | Avril |
+|------|-------|-----------|-------|-------|
+| Model / Methodology |  | A |  | R |
+| Code Replication | A |  | R |  |
+| Code Extension | A |  |  | R |
+| Introduction + Literature Review |  | R | A |  |
+| Results Analysis |  | A | R |  |
+| Conclusion + Abstract | R |  |  | A |
+| Full Report Review |  | R |  | A |
+| Slides Preparation | R |  | A |  |
+
+**Legend:** R = responsible, A = assisting
+
+---
+
 **Questions for next Q&A (13 Jan)**
-- 
+- ?
 
 **Team meeting (11 Jan at 16.00)**
 - Marjolein and Naima will review overleaf by 21.00 11 JAN
@@ -19,17 +49,12 @@
 ⚠️ Extending weights with structural break-like components might not yield better results, as there is scientific evidence on economic/financial shifts being gradual rather than suddenly happening. 
 -> Alternative: The reference paper utilizes fixed-length time windows to determine the weight changes. However, structural changes in the economy / financial market do not occur at equally spaced points in time. Hence, varying length of time windows might be worth looking into!
 
+---
+
 **Avril’s proposal:** Focus on time-varying model averaging (Sun et al., 2021)
 -	Apply to economic / financial setting 
 -	Research gap: Existing paper proposes model with smooth model weight changes, but what about sudden regime switches? 
 -	Extension: Add 2nd weight component with indicator function
-
-
-**Naima’s proposal:** Focus on how the choice of information criteria affects the performance of weighted-average regression models (https://doi.org/10.1146/annurev-statistics-041715-033413)
--	Compute model weights using different information criteria
--	Create weighted-average models based on these weights
--	Compare model performance across criteria or look at forecasting (https://doi.org/10.1016/j.ijforecast.2010.04.006)
--	Research gap: comparison of information criteria
 
 **Papers that have extended our paper that we might be able to use:**
 -	Sun, Y., Hong, Y., Wang, S., & Zhang, X. (2023). Penalized time-varying model averaging. Journal of Econometrics, 235(2), 1355-1377.
@@ -40,6 +65,13 @@
 couldn't find anything on using (Sun et al., 2021) but changing the dgp to have sudden regime changes. So, we could run Monte Carlo simulations that evaluate the TVMA method under sudden regime changes
 
 ## Archive
+
+**Naima’s proposal:** Focus on how the choice of information criteria affects the performance of weighted-average regression models (https://doi.org/10.1146/annurev-statistics-041715-033413)
+-	Compute model weights using different information criteria
+-	Create weighted-average models based on these weights
+-	Compare model performance across criteria or look at forecasting (https://doi.org/10.1016/j.ijforecast.2010.04.006)
+-	Research gap: comparison of information criteria
+-	
 **Q&A 09 Jan** 
 -	Is it okay to switch from Jackknife criterion to OOS MSE or R2 if too complex to code?
 : If Jackknife or any other advanced method does not fit our timeline, we are free to simplify like  SAIC and MSE. 
