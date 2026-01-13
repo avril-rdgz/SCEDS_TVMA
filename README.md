@@ -29,9 +29,15 @@
 **Legend:** R = responsible, A = assisting
 
 ---
-
 **Questions for next Q&A (15 Jan at 14.00)**
-- ?
+- Scope of the proposal: Different sizes of bandwidth, no need to touch upon the abrupt regime switches.
+- DGP 1 -> DGP 3
+- for T = 50, 75, 100 and 200 (p.983)
+  **Possible improvments** 
+- Jackknife criterion is advised
+- Simulation models for more implications >> theta as a function of J -> visualize it and cut it off the truncation.
+  **Anyhing we should not do**
+- difficult to explain the reasoning in empirical studies, just consider a risk. Interpretation!!! Simulation may be more desirable?
 
 **Team meeting (11 Jan at 16.00)**
 - Marjolein and Naima will review overleaf by 21.00 11 JAN
