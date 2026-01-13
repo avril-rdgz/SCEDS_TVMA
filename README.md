@@ -17,7 +17,7 @@
 
 | Task | Sofia | Marjolein | Naima | Avril |
 |------|-------|-----------|-------|-------|
-| Model / Methodology |  | A |  | R |
+| Model / Data + Methodology |  | A |  | R |
 | Code Replication | A |  | R |  |
 | Code Extension | A |  |  | R |
 | Introduction + Literature Review |  | R | A |  |
