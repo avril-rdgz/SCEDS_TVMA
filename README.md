@@ -30,7 +30,7 @@
 
 ---
 
-**Questions for next Q&A (13 Jan)**
+**Questions for next Q&A (15 Jan at 14.00)**
 - ?
 
 **Team meeting (11 Jan at 16.00)**
