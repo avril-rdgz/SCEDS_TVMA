@@ -4,7 +4,7 @@
 
 | Date       | Description |
 |------------|-------------|
-| Thu, 15 Jan | Completed candidate models and methodology |
+| Thu, 15 Jan | Completed candidate models and data/methodology |
 | Sun, 18 Jan | Completed code replication and draft introduction and literature review |
 | Thu, 22 Jan | Full analysis and interpretation of results |
 | Sun, 25 Jan | Draft of written report and internal review |
@@ -19,8 +19,8 @@
 |------|-------|-----------|-------|-------|
 | Model / Data + Methodology |  | A |  | R |
 | Code Replication | A |  | R |  |
-| Code Extension | A |  |  | R |
 | Introduction + Literature Review |  | R | A |  |
+| Code Extension | A |  |  | R |
 | Results Analysis |  | A | R |  |
 | Conclusion + Abstract | R |  |  | A |
 | Full Report Review |  | R |  | A |
