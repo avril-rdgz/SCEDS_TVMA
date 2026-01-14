@@ -27,6 +27,7 @@
 | Slides Preparation | R |  | A |  |
 
 **Legend:** R = responsible, A = assisting
+
 ---
 **Q&A (13 Jan)**
 - Scope of the proposal: Different sizes of bandwidth, no need to touch upon the abrupt regime switches.
