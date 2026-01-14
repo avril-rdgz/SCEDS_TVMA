@@ -1,6 +1,6 @@
 # CSEDS_TVMA
 
-### Action Plan
+## Action Plan
 
 | Date       | Description |
 |------------|-------------|
@@ -13,7 +13,7 @@
 | Thu, 29 Jan | Final presentation and group member evaluation |
 
 
-### Task Distribution
+## Task Distribution
 
 | Task | Sofia | Marjolein | Naima | Avril |
 |------|-------|-----------|-------|-------|
@@ -27,25 +27,20 @@
 | Slides Preparation | R |  | A |  |
 
 **Legend:** R = responsible, A = assisting
-
 ---
-**Questions for next Q&A (15 Jan at 14.00)**
+**Q&A (13 Jan)**
 - Scope of the proposal: Different sizes of bandwidth, no need to touch upon the abrupt regime switches.
 - DGP 1 -> DGP 3
 - for T = 50, 75, 100 and 200 (p.983)
-  **Possible improvments** 
-- Jackknife criterion is advised
-- Simulation models for more implications >> theta as a function of J -> visualize it and cut it off the truncation.
-  **Anyhing we should not do**
-- difficult to explain the reasoning in empirical studies, just consider a risk. Interpretation!!! Simulation may be more desirable?
-
-**Team meeting (11 Jan at 16.00)**
-- Marjolein and Naima will review overleaf by 21.00 11 JAN
-- if anything to fix and improve, me and Avril will stand by till 21.30 
-- Submission Monday morning by Marjolein
-- Naima not available every Saturday
-- Avril and Sofia limited availability during weekdays, very exhaustively evening…
+- Feedback: The last point can also be directly linked to the research question, which is generally well posed but speaks of “in the presence of structural changes”. It also fails to mention that model averaging performance is measured in terms of forecasting performance. The data and methodology section also does not provide any details on how these forecasts are produced and evaluated.
   
+   **Possible improvments** 
+ - Jackknife criterion is advised
+ - Simulation models for more implications >> theta as a function of J -> visualize it and cut it off the truncation.
+   
+   **Anyhing we should not do**
+ - difficult to explain the reasoning in empirical studies, just consider a risk. Interpretation!!! Simulation may be more desirable?
+
 **Practical information**
 - Overleaf: sofia.e.jeong@gmail.com with password vu202526
 - CSEDS Research Proposal - Online LaTeX Editor Overleaf
@@ -100,5 +95,14 @@ Possible action point to reach out to the authors of the ref paper if they could
 2)	Criterion: AICs and Jackknife(original paper) if Jackknife is not fesasible then we will extend it to the general methods
 3)	Impact of the size of bandwidth (+ reference paper)
 -	2 main people for writing the draft of the proposal (intro + literature / methodology + research question)  with the other two people review and improve it <- Sofia, Avril by Sunday noon?
--	The other two people will start data prep, look for benchmark code, DGP, and so on. <- Naima, Marjolein 
+-	The other two people will start data prep, look for benchmark code, DGP, and so on. <- Naima, Marjolein
+
+
+**Team meeting (11 Jan at 16.00)**
+- Marjolein and Naima will review overleaf by 21.00 11 JAN
+- if anything to fix and improve, me and Avril will stand by till 21.30 
+- Submission Monday morning by Marjolein
+- Naima not available every Saturday
+- Avril and Sofia limited availability during weekdays, very exhaustively evening…
+  
 
