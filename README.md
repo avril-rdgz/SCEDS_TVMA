@@ -4,8 +4,9 @@
 
 | Date       | Description |
 |------------|-------------|
-| Thu, 15 Jan | Completed candidate models and data/methodology |
-| Sun, 18 Jan | Completed code replication and draft introduction and literature review |
+| Fri, 16 Jan | Completed candidate models and methodology / simulation setup |
+| Sat, 17 Jan | Completed code replication and data/methodology |
+| Sun, 18 Jan | Completed code extension and (draft) introduction / literature review |
 | Thu, 22 Jan | Full analysis and interpretation of results |
 | Sun, 25 Jan | Draft of written report and internal review |
 | Tue, 27 Jan | Final submission of written report and presentation slides |
