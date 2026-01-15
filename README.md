@@ -110,8 +110,12 @@ Possible action point to reach out to the authors of the ref paper if they could
 
 Sample report structure:
 1. Introduction
-2. Methodology
+2. Methodology : 
 3. Simulation setup
 4. Simulation results
 5. Discussion
 6. Conclusion
+
+To do:
+- Tolerance for theta
+- Select 3-5 values of R2 and derive cs
