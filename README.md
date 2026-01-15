@@ -106,4 +106,12 @@ Possible action point to reach out to the authors of the ref paper if they could
 - Naima not available every Saturday
 - Avril and Sofia limited availability during weekdays, very exhaustively evening…
   
+**Q&A 15 JAN**
 
+Sample report structure:
+1. Introduction
+2. Methodology
+3. Simulation setup
+4. Simulation results
+5. Discussion
+6. Conclusion
