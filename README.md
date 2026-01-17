@@ -1,5 +1,3 @@
-# CSEDS_TVMA
-
 ## Action Plan
 
 | Date       | Description |
@@ -29,29 +27,51 @@
 
 **Legend:** R = responsible, A = assisting
 
----
-**Q&A (13 Jan)**
-- Scope of the proposal: Different sizes of bandwidth, no need to touch upon the abrupt regime switches.
-- DGP 1 -> DGP 3
-- for T = 50, 75, 100 and 200 (p.983)
-- Feedback: The last point can also be directly linked to the research question, which is generally well posed but speaks of “in the presence of structural changes”. It also fails to mention that model averaging performance is measured in terms of forecasting performance. The data and methodology section also does not provide any details on how these forecasts are produced and evaluated.
-  
-   **Possible improvments** 
- - Jackknife criterion is advised
- - Simulation models for more implications >> theta as a function of J -> visualize it and cut it off the truncation.
-   
-   **Anyhing we should not do**
- - difficult to explain the reasoning in empirical studies, just consider a risk. Interpretation!!! Simulation may be more desirable?
+### Next meeting QnA (20 Jan)
+-
+
 
 **Practical information**
 - Overleaf: sofia.e.jeong@gmail.com with password vu202526
-- CSEDS Research Proposal - Online LaTeX Editor Overleaf
+- [CSEDS Research Proposal - Online LaTeX Editor Overleaf](https://www.overleaf.com/project/696157ae0bd69cfd9a6983a5)
 - Zoom link: https://vu-live.zoom.us/j/98642950060?pwd=eOWIGfakTaQorMoYZ5mK5NXmRTatMa.1
 
 ## Research topic
 ⚠️ Extending weights with structural break-like components might not yield better results, as there is scientific evidence on economic/financial shifts being gradual rather than suddenly happening. 
 -> Alternative: The reference paper utilizes fixed-length time windows to determine the weight changes. However, structural changes in the economy / financial market do not occur at equally spaced points in time. Hence, varying length of time windows might be worth looking into!
 
+---
+## Report structure
+### Introduction
+- [ ] Explain why the topic is relevant
+- [ ] State your contribution
+- [ ] Explain why your methodology is appropriate (with brief literature review)
+- [ ] Set the research question
+- [ ] Provide a short outline of the paper
+
+### Methodology
+- [ ] Define all models & methods including in equations
+- [ ] Explain assumptions
+- [ ] Show relevance to the reference paper and how the methodology is used in your context
+
+### Simulation setup
+- [ ] Introduction
+- [ ] Structure
+- [ ] Methodology recap
+- [ ] Simulation setup
+
+### Simulation results
+- [ ] Analyze results
+- [ ] Interpret findings
+- [ ] Explicitly answer the research question in the results section
+
+### Discussion
+- [ ] State limitations
+- [ ] Discuss methodological constraints or caveats
+
+### Conclusion
+- [ ] Summarize the paper
+- [ ] Give a clear final statement
 ---
 
 **Avril’s proposal:** Focus on time-varying model averaging (Sun et al., 2021)
@@ -107,16 +127,21 @@ Possible action point to reach out to the authors of the ref paper if they could
 - Naima not available every Saturday
 - Avril and Sofia limited availability during weekdays, very exhaustively evening…
   
+**Q&A (13 Jan)**
+- Scope of the proposal: Different sizes of bandwidth, no need to touch upon the abrupt regime switches.
+- DGP 1 -> DGP 3
+- for T = 50, 75, 100 and 200 (p.983)
+- Feedback: The last point can also be directly linked to the research question, which is generally well posed but speaks of “in the presence of structural changes”. It also fails to mention that model averaging performance is measured in terms of forecasting performance. The data and methodology section also does not provide any details on how these forecasts are produced and evaluated.
+  
+   **Possible improvments** 
+ - Jackknife criterion is advised
+ - Simulation models for more implications >> theta as a function of J -> visualize it and cut it off the truncation.
+   
+   **Anyhing we should not do**
+ - difficult to explain the reasoning in empirical studies, just consider a risk. Interpretation!!! Simulation may be more desirable?
+
+   
 **Q&A 15 JAN**
-
-Sample report structure:
-1. Introduction
-2. Methodology : 
-3. Simulation setup
-4. Simulation results
-5. Discussion
-6. Conclusion
-
 To do:
 - Tolerance for theta
 - Select 3-5 values of R2 and derive cs
