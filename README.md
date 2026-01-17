@@ -38,7 +38,9 @@
 
 ## Research topic
 💡 The reference paper utilizes fixed-length time windows to determine the weight changes. However, structural changes in the economy / financial market do not occur at equally spaced points in time. Hence, varying length of time windows might be worth looking into!
+
 ➡️ How does bandwidth choice in time-varying model averaging affect forecasting performance under different forms of structural change, and how does this trade-off differ between smooth and abrupt structural environments?
+
 ❓ Does it imply for the use of fixed versus dynamic bandwidths?
 
 ---
