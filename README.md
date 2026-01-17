@@ -55,10 +55,8 @@
 - [ ] Show relevance to the reference paper and how the methodology is used in your context
 
 ### Simulation setup
-- [ ] Introduction
-- [ ] Structure
 - [ ] Methodology recap
-- [ ] Simulation setup
+- [ ] Structure
 
 ### Simulation results
 - [ ] Analyze results
