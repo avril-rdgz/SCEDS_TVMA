@@ -2,8 +2,8 @@
 
 | Date       | Description |
 |------------|-------------|
-| Fri, 16 Jan | Completed candidate models and methodology / simulation setup |
-| Sat, 17 Jan | Completed code replication |
+| Fri, 16 Jan | ~Completed candidate models and methodology / simulation setup~ @Marjolein, Review? |
+| Sat, 17 Jan | ~Completed code replication~ |
 | Sun, 18 Jan | Completed code extension and (draft) introduction / literature review |
 | Thu, 22 Jan | Full analysis and interpretation of results |
 | Sun, 25 Jan | Draft of written report and internal review |
