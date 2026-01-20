@@ -140,9 +140,13 @@ Possible action point to reach out to the authors of the ref paper if they could
    
    **Anyhing we should not do**
  - difficult to explain the reasoning in empirical studies, just consider a risk. Interpretation!!! Simulation may be more desirable?
-
    
 **Q&A 15 JAN**
 To do:
 - Tolerance for theta
 - Select 3-5 values of R2 and derive cs
+
+**Q&A (20 Jan)**
+- Change c -> c_{\theta} and c_h.
+- Plot both DGPs on y-axis = Y and x-axis = t. Two lines per plot, one for c_{\theta} = 1/3 and = 3. Two plots per T = 50, 200 (if time allows also T=75, 100
+- Plot both DGPs on y_axis = relative MSE and x-axis  = R^2. Multiple lines per plot, once for c_h = 1, 10, 100, 1000.
