@@ -56,7 +56,31 @@ Parameters vary smoothly over time (e.g., macroeconomic drift).
 
 #### **DGP 2 — Abrupt change** (Variation of DGP 3 in the original paper)
 A clear, abrupt break in regression parameters (e.g., financial regime shifts).
+```
+def DGP2_multi(c, T, J, alpha):
+    t = np.arange(1, T + 1)
+    tau = t / T
 
+    # Multiple abrupt regimes
+    F_tau = np.zeros(T)
+    F_tau[tau <= 0.25] = 0.1
+    F_tau[(tau > 0.25) & (tau <= 0.45)] = 0.8
+    F_tau[(tau > 0.45) & (tau <= 0.60)] = 0.3
+    F_tau[(tau > 0.60) & (tau <= 0.90)] = 0.5
+    F_tau[tau > 0.90] = 1
+
+    X = np.random.randn(T, J)
+    X[:, 0] = 1.0
+
+    j = np.arange(1, J + 1)
+    theta = c * np.sqrt(2 * alpha) * j**(-(alpha + 0.5))
+
+    mu = F_tau * (X @ theta)
+    eps = np.random.randn(T)
+    Y = mu + eps
+
+    return Y, X, mu
+```
 ### Sample Sizes
 - \(T = 50\)  
 - \(T = 200\)
