@@ -54,32 +54,32 @@ We consider two distinct structural change patterns:
 #### **DGP 1 — Smooth change** (DGP 1 in the original paper)
 Parameters vary smoothly over time (e.g., macroeconomic drift).
 
-#### **DGP 2 — Abrupt change** (Variation of DGP 3 in the original paper)
+#### **DGP 3 — Abrupt regime switches** (Variation of DGP 3 in the original paper)
 A clear, abrupt break in regression parameters (e.g., financial regime shifts).
 ```
-def DGP2_multi(c, T, J, alpha):
+
+
+def DGP3(T, J, R2, alpha=1.5):
+    c = np.sqrt(R2 / (1 - R2))
+
     t = np.arange(1, T + 1)
     tau = t / T
 
-    # Multiple abrupt regimes
-    F_tau = np.zeros(T)
-    F_tau[tau <= 0.25] = 0.1
-    F_tau[(tau > 0.25) & (tau <= 0.45)] = 0.8
-    F_tau[(tau > 0.45) & (tau <= 0.60)] = 0.3
-    F_tau[(tau > 0.60) & (tau <= 0.90)] = 0.5
-    F_tau[tau > 0.90] = 1
+    F_tau = np.where(tau < 0.3, 0.1,
+                     np.where(tau < 0.8, 1.0, -0.5))
 
     X = np.random.randn(T, J)
     X[:, 0] = 1.0
 
-    j = np.arange(1, J + 1)
+    j = np.arange(1, J+1)
     theta = c * np.sqrt(2 * alpha) * j**(-(alpha + 0.5))
 
     mu = F_tau * (X @ theta)
     eps = np.random.randn(T)
-    Y = mu + eps
 
+    Y = mu + eps
     return Y, X, mu
+
 ```
 ### Sample Sizes
 - \(T = 50\)  
@@ -111,7 +111,7 @@ For each DGP, include a single representative simulation run to illustrate the q
 clarifing the structural features of each DGP—whether the evolution is smooth or abrupt
 
 ### (2) Performance Curves (fig 1. in the original paper)
-* x‑axis: population R2R^2R2, varied over a grid
+* x‑axis: population R2, varied over a grid
 * y‑axis: RMSE
 * separate curves: one per bandwidth in the experimental grid
 * separate panels: one per sample size (T)
