@@ -7,7 +7,8 @@
 | Sun, 18 Jan | ~Completed code extension~ and introduction / literature review | ⚠️ |
 | Fri, 23 Jan | Completed code extension |  |
 | ~Thu, 22 Jan~  Sat, 24 Jan| Full analysis and interpretation of results |  |
-| Sun, 25 Jan | Draft of written report and internal review |  |
+| Sun, 25 Jan | Conclusion + abstract |  |
+| Mon, 26 Jan | Full internal review + presentation slides|  |
 | Tue, 27 Jan | Final submission of written report and presentation slides |  |
 | Wed, 28 Jan | Rehearsal and refinement of presentation narrative |  |
 | Thu, 29 Jan | Final presentation and group member evaluation |  |
@@ -20,8 +21,8 @@
 | Model / Data + Methodology |  | A |  | R |
 | Code Replication | A |  | R |  |
 | Introduction + Literature Review |  | R | A |  |
-| Code Extension | A |  |  | R |
-| Results Analysis |  | A | R |  |
+| Code Extension | A |  | R | ~R~ |
+| Results Analysis |  | A | ~R~ | R |
 | Conclusion + Abstract | R |  |  | A |
 | Full Report Review |  | R |  | A |
 | Slides Preparation | R |  | A |  |
