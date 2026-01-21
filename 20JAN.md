@@ -1,3 +1,34 @@
+```
+T=50
+Th=1
+h= 0.02
+H = 50^(-0.2) * c 
+c= 0.02 / 50^(-0.2) 
+Small c = 0.2/ 50^(-0.2) = 0.4373
+Medium c =0.5/ 50^(-0.2)=1.0934
+Large c s.t  h= 0.8/ 50^(-0.2)=1.7494
+```
+
+```
+T=100
+
+Opt 2 : the same scale parameter in the bandwidth for the kernel
+Th = 1.5
+h=  200^(-0.2) *  0.02 / 50^(-0.2) = 0.015 NE 0.02
+h = 200^(-0.2) * c 
+c= 0.02 / 50^(-0.2)
+Small c = 0.4373
+Medium c =1.0934
+Large c =1.7494
+```
+	-> T=50 in the paper, the optimal h seems not proper. 
+	-> we show scale parameter makes diff in the same DGP and same T *
+	-> extend it to the same c ranges from * and apply it to T=200
+	-> different optimal bandwidth
+	-> In addition, we motivates different DGP f.e. regime switches  results in the sensitivity to the bandwidth
+	
+
+
 
 ## 1. Overview
 This case study investigates how sensitive the Time‑Varying Jackknife Model Averaging (TVJMA) estimator is to the choice of bandwidth in the kernel smoothing step.  
@@ -118,7 +149,7 @@ clarifing the structural features of each DGP—whether the evolution is smooth 
 
 ### (3) Distributional Analysis via Boxplots of MSE (if time allows)
 
-In addition to average performance, examine the distribution of MSE across Monte Carlo replications using boxplots. 
+In addition to average performance, examine the distribution of RMSE across Monte Carlo replications using boxplots. 
 For each DGP and each sample size, produce boxplots comparing all bandwidths side by side.
 This distributional perspective reveals features that average RMSE alone cannot capture, such as:
 * variability across replications
