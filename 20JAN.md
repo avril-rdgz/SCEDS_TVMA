@@ -15,11 +15,10 @@ Medium c=1.4427  (h=0.6598) -> Th=33
 Large c = 2.5969    (h=1.1876) -> Th=59
 
 ```
-	-> T=50 in the paper, the optimal h seems not proper. 
-	-> we show scale parameter makes diff in the same DGP and same T *
-	-> extend it to the same c ranges from * and apply it to T=200
-	-> different optimal bandwidth
-	-> In addition, we motivates different DGP f.e. regime switches  results in the sensitivity to the bandwidth
+1. check T=200, is the same optimum retained?
+2. with the same scale parameter c, does the result (from 1) remain the same for different T=50?
+3. from 1, 2, and the original paper, we expect different optimal bandwidth choices
+4. In addition to that, we motivates different DGP f.e. regime switches would result in the sensitivity to the bandwidth
 	
 
 
