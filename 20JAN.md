@@ -1,25 +1,20 @@
 ```
-T=50
-Th=1
-h= 0.02
-H = 50^(-0.2) * c 
-c= 0.02 / 50^(-0.2) 
-Small c = 0.2/ 50^(-0.2) = 0.4373
-Medium c =0.5/ 50^(-0.2)=1.0934
-Large c s.t  h= 0.8/ 50^(-0.2)=1.7494
-```
-
-```
 T=100
 
-Opt 2 : the same scale parameter in the bandwidth for the kernel
-Th = 1.5
-h=  200^(-0.2) *  0.02 / 50^(-0.2) = 0.015 NE 0.02
-h = 200^(-0.2) * c 
-c= 0.02 / 50^(-0.2)
-Small c = 0.4373
-Medium c =1.0934
-Large c =1.7494
+Small c = 0.3/ 200^(-0.2)=0.8656    (h=0.3) -> Th=30
+Medium c=0.5/200^(-0.2)=1.4427  (h=0.5) -> Th=50
+Large c = 0.9/ 200^(-0.2)=2.5969    (h=0.9) -> Th=90
+
+
+
+```
+
+```
+-> T=50
+Small c =0.8656    (h=0.8656*50^(-0.2)=0.3598) -> Th= 0.4573*50=19
+Medium c=1.4427  (h=0.6598) -> Th=33
+Large c = 2.5969    (h=1.1876) -> Th=59
+
 ```
 	-> T=50 in the paper, the optimal h seems not proper. 
 	-> we show scale parameter makes diff in the same DGP and same T *
