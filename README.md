@@ -16,13 +16,13 @@
 
 ## Task Distribution
 
-| Task | Sofia | Marjolein | Naima | Avril |
-|------|-------|-----------|-------|-------|
-| Model / Data + Methodology |  | A |  | R |
-| Code Replication | A |  | R |  |
-| Introduction + Literature Review |  | R | A |  |
-| Code Extension | A |  | R | ~R~ |
-| Results Analysis |  | A | ~R~ | R |
+| Task | Sofia | Marjolein | Naima | Avril |Complete?|
+|------|-------|-----------|-------|-------|-------|
+| Model / Data + Methodology |  | A |  | R |✅ |
+| Code Replication | A |  | R |  |✅ |
+| Introduction + Literature Review |  | R | A |  |✅ |
+| Code Extension | A |  | R | ~R~ |✅ |
+| Results Analysis |  | A | ~R~ | R |✅ |
 | Conclusion + Abstract | R |  |  | A |
 | Full Report Review |  | R |  | A |
 | Slides Preparation | R |  | A |  |
