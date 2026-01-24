@@ -519,7 +519,7 @@ np.savetxt("mse_1l_T50.csv", mse_1l_T50, delimiter=",")
 np.savetxt("mse_1opt_T50.csv", mse_1opt_T50, delimiter=",")
 
 
-# In[85]:
+# In[121]:
 
 
 T=50
@@ -528,13 +528,13 @@ plt.boxplot(mse_1opt_T50,
             showfliers=True, patch_artist=True)
 plt.xlabel(r"$R^2$")
 plt.ylabel("MSE (TVJMA)")
-plt.title(f"MSE dispersion, DGP2 under $h^*$, T={T}")
+plt.title(f"MSE dispersion, DGP1 under $h^*$, T={T}")
 plt.tight_layout()
 plt.show()
 
 
 
-# In[86]:
+# In[122]:
 
 
 T=50
@@ -546,7 +546,7 @@ plt.plot(R2_grid, rel_mse_1opt_T50, linewidth=2, label='h*=0.81')
 plt.axhline(1.0, linestyle="--", color="black")
 plt.xlabel(r"$R^2$")
 plt.ylabel("Relative MSE")
-plt.title(f"RMSE under different bandwidth, DGP 2, T={T}")
+plt.title(f"RMSE under different bandwidth, DGP 1, T={T}")
 plt.legend()
 plt.tight_layout()
 plt.show()
@@ -728,7 +728,24 @@ np.savetxt("mse_2l_T200.csv", mse_2l_T200, delimiter=",")
 np.savetxt("mse_2opt_T200.csv", mse_2opt_T200, delimiter=",")
 
 
-# In[89]:
+# In[124]:
+
+
+plt.plot(R2_grid, rel_mse_2s_T200, linewidth=2, label='h=0.3')
+plt.plot(R2_grid, rel_mse_2m_T200, linewidth=2, label='h=0.5')
+plt.plot(R2_grid, rel_mse_2l_T200, linewidth=2, label='h=0.9')
+plt.plot(R2_grid, rel_mse_2opt_T200, linewidth=2, label='h*=0.81')
+
+plt.axhline(1.0, linestyle="--", color="black")
+plt.xlabel(r"$R^2$")
+plt.ylabel("Relative MSE")
+plt.title(f"RMSE under different bandwidth, DGP 2, T={T}")
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+
+# In[123]:
 
 
 T=200
