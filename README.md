@@ -6,7 +6,7 @@
 | Sat, 17 Jan | Completed code replication | ✅ |
 | Sun, 18 Jan | ~Completed code extension~ and introduction / literature review | ✅ |
 | Fri, 23 Jan | Completed code extension | ✅ |
-| ~Thu, 22 Jan~  Sat, 24 Jan| Full analysis and interpretation of results |  |
+| ~Thu, 22 Jan~  Sat, 24 Jan| Full analysis and interpretation of results | ✅ |
 | Sun, 25 Jan | Conclusion + abstract |  |
 | Mon, 26 Jan | Full internal review + presentation slides|  |
 | Tue, 27 Jan | Final submission of written report and presentation slides |  |
