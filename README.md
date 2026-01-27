@@ -24,8 +24,6 @@ Sofia: Conclsuion (3 mins)
 | Sun, 25 Jan | Conclusion + abstract | ✅ |
 | Mon, 26 Jan | Full internal review| ✅ |
 | Mon, 26 Jan | presentation slides| ✅ |
-| Mon, 26 Jan | presentation slides| ✅ |
-| Mon, 26 Jan | presentation slides| ✅ |
 | 23:59 Tue, 27 Jan | presentation slides revised by each presenter |  |
 | 23:59 Tue, 27 Jan | Written report revised by Marjolein and Avril|  |
 | 17:00 Wed, 28 Jan | The slides revised by Naima and Sofia |  |
