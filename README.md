@@ -1,3 +1,17 @@
+
+### Presentation split
+Naima: Intorudction (3 mins)
+Avril: Methodology (4 mins)
+Marjjolein: Results (6 mins)
+Sofia: Conclsuion (3 mins)
+
+**Team meeting 27 Jan**
+* page 3. intorduction: model averaging (MA 3)
+* page 4. TVMA idea + bandwidth
+* discussion + results together
+* Conclusion: 18+19+20
+
+
 ## Action Plan
 
 | Date       | Description | Complete?   |
@@ -10,8 +24,13 @@
 | Sun, 25 Jan | Conclusion + abstract | ✅ |
 | Mon, 26 Jan | Full internal review| ✅ |
 | Mon, 26 Jan | presentation slides| ✅ |
-| Tue, 27 Jan | Final submission of written report and presentation slides |  |
-| Wed, 28 Jan | Rehearsal and refinement of presentation narrative |  |
+| Mon, 26 Jan | presentation slides| ✅ |
+| Mon, 26 Jan | presentation slides| ✅ |
+| 23:59 Tue, 27 Jan | presentation slides revised by each presenter |  |
+| 23:59 Tue, 27 Jan | Written report revised by Marjolein and Avril|  |
+| 17:05 Wed, 28 Jan | ~Rehearsal and refinement of presentation narrative~ Alignment on the presentation|  |
+| 20:00 Wed, 28 Jan | The slides revised by Naima and Sofia |  |
+| ~Tue, 27 Jan~  Wed, 28 Jan| Final submission of written report and presentation slides |  |
 | Thu, 29 Jan | Final presentation and group member evaluation |  |
 
 
@@ -156,5 +175,3 @@ To do:
 - Plot both DGPs on y_axis = relative MSE and x-axis  = R^2. Multiple lines per plot, once for c_h = 1, 10, 100, 1000. (S)
 - Box plots for errors rather than just relative MSE. (S)
 
-Slide split
-- 
