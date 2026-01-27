@@ -28,8 +28,8 @@ Sofia: Conclsuion (3 mins)
 | Mon, 26 Jan | presentation slides| ✅ |
 | 23:59 Tue, 27 Jan | presentation slides revised by each presenter |  |
 | 23:59 Tue, 27 Jan | Written report revised by Marjolein and Avril|  |
+| 17:00 Wed, 28 Jan | The slides revised by Naima and Sofia |  |
 | 17:05 Wed, 28 Jan | ~Rehearsal and refinement of presentation narrative~ Alignment on the presentation|  |
-| 20:00 Wed, 28 Jan | The slides revised by Naima and Sofia |  |
 | ~Tue, 27 Jan~  Wed, 28 Jan| Final submission of written report and presentation slides |  |
 | Thu, 29 Jan | Final presentation and group member evaluation |  |
 
