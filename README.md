@@ -8,7 +8,7 @@
 | Fri, 23 Jan | Completed code extension | ✅ |
 | ~Thu, 22 Jan~  Sat, 24 Jan| Full analysis and interpretation of results | ✅ |
 | Sun, 25 Jan | Conclusion + abstract | ✅ |
-| Mon, 26 Jan | Full internal review|  |
+| Mon, 26 Jan | Full internal review| ✅ |
 | Mon, 26 Jan | presentation slides| ✅ |
 | Tue, 27 Jan | Final submission of written report and presentation slides |  |
 | Wed, 28 Jan | Rehearsal and refinement of presentation narrative |  |
@@ -156,3 +156,5 @@ To do:
 - Plot both DGPs on y_axis = relative MSE and x-axis  = R^2. Multiple lines per plot, once for c_h = 1, 10, 100, 1000. (S)
 - Box plots for errors rather than just relative MSE. (S)
 
+Slide split
+- 
